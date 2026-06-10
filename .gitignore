@@ -1,0 +1,23 @@
+# Bulk / cached raw downloads — fetchers re-create on demand
+data/raw/
+
+# Notebook build cache (regenerated on demand)
+community/.img-cache/
+
+# Wolfram
+*.nb~
+*.bak
+.WolframKernelHistory
+$Failed.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# local dev notes — not published
+CLAUDE.md
